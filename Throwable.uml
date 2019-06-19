@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Throwable</OriginalElement>
+  <nodes>
+    <node x="884.5625" y="80.0">java.lang.Throwable</node>
+    <node x="133.0" y="330.0">java.lang.StackOverflowError</node>
+    <node x="852.0" y="250.0">java.lang.NoSuchMethodException</node>
+    <node x="334.75" y="160.0">java.lang.Error</node>
+    <node x="389.0" y="250.0">java.lang.AssertionError</node>
+    <node x="1739.25" y="330.0">java.io.InterruptedIOException</node>
+    <node x="666.9375" y="330.0">java.lang.NullPointerException</node>
+    <node x="1738.25" y="410.0">java.io.InvalidClassException</node>
+    <node x="216.0" y="250.0">java.lang.VirtualMachineError</node>
+    <node x="1353.75" y="250.0">java.lang.NoSuchFieldException</node>
+    <node x="667.0" y="250.0">java.lang.InstantiationException</node>
+    <node x="522.9375" y="330.0">java.lang.UnknownError</node>
+    <node x="1549.25" y="410.0">java.io.InvalidObjectException</node>
+    <node x="0.0" y="330.0">java.lang.InternalError</node>
+    <node x="1373.25" y="330.0">java.lang.ArithmeticException</node>
+    <node x="1885.0277093596055" y="250.0">java.lang.IllegalAccessException</node>
+    <node x="39.0" y="250.0">java.lang.NoSuchMethodError</node>
+    <node x="924.25" y="330.0">java.lang.NumberFormatException</node>
+    <node x="1754.0277093596055" y="250.0">java.io.IOException</node>
+    <node x="1125.25" y="330.0">java.lang.ArrayIndexOutOfBoundsException</node>
+    <node x="1352.25" y="410.0">java.io.NotSerializableException</node>
+    <node x="1055.0" y="250.0">java.lang.RuntimeException</node>
+    <node x="1929.25" y="330.0">java.io.FileNotFoundException</node>
+    <node x="1387.25" y="160.0">java.lang.Exception</node>
+    <node x="531.0" y="250.0">java.lang.ThreadDeath</node>
+    <node x="883.5625" y="0.0">java.io.Serializable</node>
+    <node x="1548.25" y="330.0">java.io.ObjectStreamException</node>
+    <node x="2071.0277093596055" y="250.0">java.lang.ClassNotFoundException</node>
+    <node x="302.0" y="330.0">java.lang.OutOfMemoryError</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.ObjectStreamException" target="java.io.IOException">
+      <point x="0.0" y="-15.0" />
+      <point x="1633.75" y="310.0" />
+      <point x="1772.5277093596055" y="310.0" />
+      <point x="-37.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.IllegalAccessException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1968.0277093596055" y="220.0" />
+      <point x="1465.0357142857142" y="220.0" />
+      <point x="28.28571428571422" y="15.0" />
+    </edge>
+    <edge source="java.lang.UnknownError" target="java.lang.VirtualMachineError">
+      <point x="0.0" y="-15.0" />
+      <point x="584.9375" y="300.0" />
+      <point x="349.875" y="300.0" />
+      <point x="57.375" y="15.0" />
+    </edge>
+    <edge source="java.io.FileNotFoundException" target="java.io.IOException">
+      <point x="0.0" y="-15.0" />
+      <point x="2014.75" y="310.0" />
+      <point x="1846.5277093596055" y="310.0" />
+      <point x="37.0" y="15.0" />
+    </edge>
+    <edge source="java.io.InterruptedIOException" target="java.io.IOException">
+      <point x="0.0" y="-15.0" />
+      <point x="1824.25" y="310.0" />
+      <point x="1809.5277093596055" y="310.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.AssertionError" target="java.lang.Error">
+      <point x="0.0" y="-15.0" />
+      <point x="450.0" y="230.0" />
+      <point x="380.375" y="230.0" />
+      <point x="9.125" y="15.0" />
+    </edge>
+    <edge source="java.lang.ArithmeticException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="1450.75" y="300.0" />
+      <point x="1181.0" y="300.0" />
+      <point x="54.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.NoSuchMethodError" target="java.lang.Error">
+      <point x="0.0" y="-15.0" />
+      <point x="117.5" y="220.0" />
+      <point x="343.875" y="220.0" />
+      <point x="-27.375" y="15.0" />
+    </edge>
+    <edge source="java.lang.NullPointerException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="746.4375" y="300.0" />
+      <point x="1073.0" y="300.0" />
+      <point x="-54.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1127.0" y="230.0" />
+      <point x="1422.607142857143" y="230.0" />
+      <point x="-14.14285714285711" y="15.0" />
+    </edge>
+    <edge source="java.lang.Error" target="java.lang.Throwable">
+      <point x="0.0" y="-15.0" />
+      <point x="371.25" y="135.0" />
+      <point x="910.5625" y="135.0" />
+      <point x="-26.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="-15.0" />
+      <point x="1436.75" y="135.0" />
+      <point x="962.5625" y="135.0" />
+      <point x="26.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.StackOverflowError" target="java.lang.VirtualMachineError">
+      <point x="0.0" y="-15.0" />
+      <point x="207.5" y="310.0" />
+      <point x="273.375" y="310.0" />
+      <point x="-19.125" y="15.0" />
+    </edge>
+    <edge source="java.lang.ClassNotFoundException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="2161.0277093596055" y="210.0" />
+      <point x="1479.1785714285713" y="210.0" />
+      <point x="42.42857142857133" y="15.0" />
+    </edge>
+    <edge source="java.io.NotSerializableException" target="java.io.ObjectStreamException">
+      <point x="0.0" y="-15.0" />
+      <point x="1440.75" y="385.0" />
+      <point x="1576.75" y="385.0" />
+      <point x="-57.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.ThreadDeath" target="java.lang.Error">
+      <point x="0.0" y="-15.0" />
+      <point x="589.0" y="220.0" />
+      <point x="398.625" y="220.0" />
+      <point x="27.375" y="15.0" />
+    </edge>
+    <edge source="java.io.IOException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="1809.5277093596055" y="230.0" />
+      <point x="1450.892857142857" y="230.0" />
+      <point x="14.14285714285711" y="15.0" />
+    </edge>
+    <edge source="java.lang.ArrayIndexOutOfBoundsException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="1239.25" y="310.0" />
+      <point x="1145.0" y="310.0" />
+      <point x="18.0" y="15.0" />
+    </edge>
+    <edge source="java.io.InvalidClassException" target="java.io.ObjectStreamException">
+      <point x="0.0" y="-15.0" />
+      <point x="1818.75" y="385.0" />
+      <point x="1690.75" y="385.0" />
+      <point x="57.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.NoSuchMethodException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="943.5" y="220.0" />
+      <point x="1408.4642857142858" y="220.0" />
+      <point x="-28.28571428571422" y="15.0" />
+    </edge>
+    <edge source="java.lang.InstantiationException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="749.5" y="210.0" />
+      <point x="1394.3214285714287" y="210.0" />
+      <point x="-42.42857142857133" y="15.0" />
+    </edge>
+    <edge source="java.lang.OutOfMemoryError" target="java.lang.VirtualMachineError">
+      <point x="0.0" y="-15.0" />
+      <point x="377.5" y="310.0" />
+      <point x="311.625" y="310.0" />
+      <point x="19.125" y="15.0" />
+    </edge>
+    <edge source="java.lang.InternalError" target="java.lang.VirtualMachineError">
+      <point x="0.0" y="-15.0" />
+      <point x="56.5" y="300.0" />
+      <point x="235.125" y="300.0" />
+      <point x="-57.375" y="15.0" />
+    </edge>
+    <edge source="java.lang.NoSuchFieldException" target="java.lang.Exception">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.io.InvalidObjectException" target="java.io.ObjectStreamException">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.NumberFormatException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-15.0" />
+      <point x="1014.75" y="310.0" />
+      <point x="1109.0" y="310.0" />
+      <point x="-18.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.VirtualMachineError" target="java.lang.Error">
+      <point x="0.0" y="-15.0" />
+      <point x="292.5" y="230.0" />
+      <point x="362.125" y="230.0" />
+      <point x="-9.125" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="1758.5" y="280.0" />
+  <SelectedNodes>
+    <node>java.lang.Throwable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
